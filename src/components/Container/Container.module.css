@@ -1,0 +1,16 @@
+.container {
+  width: 300px;
+  background: #ffffff;
+
+  -webkit-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+
+  border-radius: 8px;
+
+  margin: auto;
+
+  padding: 15px;
+
+  text-align: center;
+}

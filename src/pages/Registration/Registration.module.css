@@ -1,0 +1,31 @@
+.sign-up__item {
+    margin-bottom: 15px;
+}
+
+.sign-up__item:last-child {
+    margin-bottom: 0;
+}
+
+.sign-up__button {
+    width: 150px;
+    margin-top: 30px;
+}
+
+.sign-up__link {
+    display: block;
+    font-size: 14px;
+    color: #7817b0;
+    margin-top: 20px;
+}
+
+.sign-up__error {
+    margin-bottom: 3px;
+    color: red;
+    font-size: 12px;
+    line-height: 1;
+    font-weight: bold;
+}
+
+.sign-up__error:last-child {
+    margin-bottom: 20px;
+}

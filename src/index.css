@@ -1,0 +1,10 @@
+body, html, #root {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+#root {
+  background-color: #3fabe5;
+  display: flex;
+}

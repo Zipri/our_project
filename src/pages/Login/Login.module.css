@@ -1,0 +1,35 @@
+.login__item {
+    margin-bottom: 15px;
+}
+
+.login__item:last-child {
+    margin-bottom: 0;
+}
+
+.login__button {
+    margin-top: 30px;
+    width: 150px;
+}
+
+.login__error {
+    margin-bottom: 3px;
+    color: red;
+    font-size: 12px;
+    line-height: 1;
+    font-weight: bold;
+}
+
+.login__error:last-child {
+    margin-bottom: 20px;
+}
+
+.login__reference {
+    margin-top: 20px;
+    color: #B8B8B8;
+    font-size: 14px;
+}
+
+.login__link {
+    color: #71B283;
+}
+
