@@ -1,5 +1,6 @@
 import * as React from 'react';
 import {Switch, Route, Redirect} from 'react-router-dom'
+import logo from './xyz.jpg';
 
 import Main from "./pages/Main";
 import Login from './pages/Login';
@@ -13,6 +14,9 @@ function App() {
 
   return (
     <AuthProvider>
+      <div>
+        <img src={logo} className="App-logo" alt="logo" />
+      </div>
       <Switch>
         <PrivateRoute path="/" exact>
           <Main />
